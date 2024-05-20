@@ -1,0 +1,586 @@
+.container-child {
+  height: 95px;
+  width: 1440px;
+  position: relative;
+  background: linear-gradient(90deg, #def088, #a6d555 45.5%, #598a03);
+  display: none;
+  max-width: 100%;
+}
+.home7 {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  cursor: pointer;
+  z-index: 1;
+}
+.home-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+}
+.recipes5 {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 1;
+}
+.recipes-wrapper2 {
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.male-user-child {
+  height: 46px;
+  width: 491px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-floralwhite);
+  display: none;
+  max-width: 100%;
+}
+.search-icon4 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.male-user,
+.search-bar {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.male-user {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-floralwhite);
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-10xs) var(--padding-17xl);
+  z-index: 1;
+}
+.search-bar {
+  width: 529px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-19xl) 0 0;
+}
+.male-user-icon6 {
+  height: 77px;
+  width: 72px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.container {
+  align-self: stretch;
+  background: linear-gradient(90deg, #def088, #a6d555 45.5%, #598a03);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-9xs)
+    var(--padding-185xl);
+  box-sizing: border-box;
+  gap: var(--gap-87xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-montserrat);
+}
+.image-1-icon7,
+.spring-rolls-fin-1-icon {
+  position: absolute;
+  top: -3px;
+  left: 56px;
+  width: 94px;
+  height: 101px;
+  object-fit: cover;
+  z-index: 1;
+}
+.spring-rolls-fin-1-icon {
+  top: 91px;
+  left: 0;
+  width: 1440px;
+  height: 871px;
+  z-index: 2;
+}
+.roll-label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.feature-meal {
+  align-self: stretch;
+  height: 962px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.free-of-gluten-and,
+.makes-6-servings,
+.vietnamese-rolls-are {
+  margin: 0;
+}
+.vietnamese-rolls-are-container {
+  width: 630px;
+  position: absolute;
+  margin: 0 !important;
+  top: 37px;
+  right: -586px;
+  font-weight: 500;
+  display: inline-block;
+}
+.allergy-friendly-spring-rolls1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-45xl);
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-olivedrab);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.allergy-friendly {
+  width: 658px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.butter-sauce-instructions-child {
+  height: 975px;
+  width: 1310px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.ingredients {
+  margin: 0;
+  font-weight: 800;
+}
+.thai-sunflower-butter1 {
+  font-weight: 600;
+}
+.thai-sunflower-butter-sauce {
+  margin: 0;
+  color: var(--color-black);
+}
+.cup-chunky-sunflower {
+  font-weight: 500;
+}
+.cup-chunky-sunflower-butter-r1 {
+  margin-bottom: 0;
+}
+.tsp-ground-ginger1 {
+  font-weight: 500;
+}
+.tsp-ground-ginger {
+  margin-bottom: 0;
+}
+.tsp-kosher-salt1 {
+  font-weight: 500;
+}
+.tsp-kosher-salt {
+  margin-bottom: 0;
+}
+.tsp-crushed-red {
+  font-weight: 500;
+}
+.tsp-crushed-red-pepper-flakes {
+  margin-bottom: 0;
+}
+.tsp-rice-wine {
+  font-weight: 500;
+}
+.tsp-rice-wine-vinegar-see-rec {
+  margin-bottom: 0;
+}
+.cup-rice-milk1 {
+  font-weight: 500;
+}
+.cup-rice-milk {
+  margin-bottom: 0;
+}
+.blank-line1 {
+  font-weight: 500;
+}
+.blank-line {
+  margin-bottom: 0;
+}
+.cup-chunky-sunflower-butter-r {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.fresh-rolls1 {
+  font-weight: 600;
+}
+.fresh-rolls {
+  margin: 0;
+}
+.oz-rice-vermicelli {
+  font-weight: 500;
+}
+.oz-rice-vermicelli-uncooked {
+  margin-bottom: 0;
+}
+.unpeeled-cucumber1 {
+  font-weight: 500;
+}
+.unpeeled-cucumber {
+  margin-bottom: 0;
+}
+.avocado1 {
+  font-weight: 500;
+}
+.avocado {
+  margin-bottom: 0;
+}
+.rice-wrappers-8 {
+  font-weight: 500;
+}
+.rice-wrappers-8-12-inch-diam {
+  margin-bottom: 0;
+}
+.romaine-leaves-flattened1 {
+  font-weight: 500;
+}
+.romaine-leaves-flattened {
+  margin-bottom: 0;
+}
+.carrot-spiralized-about {
+  font-weight: 500;
+}
+.carrot-spiralized-about-2-cu {
+  margin-bottom: 0;
+}
+.mint-leaves1 {
+  font-weight: 500;
+}
+.mint-leaves {
+  margin-bottom: 0;
+}
+.cilantro-leaves1 {
+  font-weight: 500;
+}
+.cilantro-leaves {
+  margin-bottom: 0;
+}
+.oranges-supremed-see {
+  font-weight: 500;
+}
+.oz-rice-vermicelli-uncooked-1 {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.ingredients-thai-sunflower-container {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.recipe-tips {
+  margin: 0;
+  width: 424px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.prepping-ahead1 {
+  font-family: var(--font-montserrat);
+  color: var(--color-saddlebrown);
+}
+.blank-line2,
+.prepping-ahead-these-fresh-ro {
+  margin: 0;
+}
+.for-an-open {
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--color-saddlebrown);
+}
+.for-an-open-fresh-roll-fold-b {
+  margin: 0;
+}
+.prepping-ahead-these-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  z-index: 1;
+  color: var(--color-black);
+}
+.recipe-tips-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-30xl);
+}
+.prepping-ahead,
+.recipe-tips-parent,
+.sauce-label,
+.thai-sunflower-butter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.prepping-ahead {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+  color: var(--color-yellowgreen-300);
+}
+.sauce-label,
+.thai-sunflower-butter {
+  flex-direction: column;
+}
+.thai-sunflower-butter {
+  align-self: stretch;
+  gap: 67px;
+}
+.sauce-label {
+  width: 546px;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 546px;
+}
+.instructions {
+  margin: 0;
+  font-weight: 800;
+}
+.for-sunflower-butter {
+  font-weight: 500;
+}
+.for-sunflower-butter-sauce-co1 {
+  margin-bottom: 0;
+}
+.gradually-whisk-in {
+  font-weight: 500;
+}
+.gradually-whisk-in-14-cup-of {
+  margin-bottom: 0;
+}
+.for-fresh-rolls {
+  font-weight: 500;
+}
+.for-fresh-rolls-cook-rice-ver {
+  margin-bottom: 0;
+}
+.slice-cucumber-in {
+  font-weight: 500;
+}
+.slice-cucumber-in-half-lengthw {
+  margin-bottom: 0;
+}
+.cut-avocado-in {
+  font-weight: 500;
+}
+.cut-avocado-in-half-lengthwise {
+  margin-bottom: 0;
+}
+.fill-a-large {
+  font-weight: 500;
+}
+.fill-a-large-bowl-with-warm-wa {
+  margin-bottom: 0;
+}
+.place-a-romaine {
+  font-weight: 500;
+}
+.place-a-romaine-leaf-on-bottom {
+  margin-bottom: 0;
+}
+.place-roll-seam {
+  font-weight: 500;
+}
+.place-roll-seam-side-down-on {
+  margin-bottom: 0;
+}
+.to-serve-cut {
+  font-weight: 500;
+}
+.for-sunflower-butter-sauce-co {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+  color: var(--color-black);
+}
+.instructions-for-sunflower-container {
+  width: 614px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 614px;
+  max-width: 100%;
+  z-index: 1;
+  color: var(--color-olivedrab);
+}
+.butter-sauce-instructions {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-30xl) 130px;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.allergy-friendly-parent,
+.butter-sauce-instructions,
+.vietnamese-rolls-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vietnamese-rolls-title {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-gold);
+}
+.allergy-friendly-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+}
+.feature-care-meal-child,
+.feature-care-meal2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.feature-care-meal-child {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 65px 0 var(--padding-43xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.feature-care-meal2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xl);
+  gap: var(--gap-base);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .container {
+    padding-left: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+  .instructions-for-sunflower-container,
+  .sauce-label {
+    flex: 1;
+  }
+  .butter-sauce-instructions {
+    flex-wrap: wrap;
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .instructions-for-sunflower-container,
+  .sauce-label {
+    min-width: 100%;
+  }
+  .butter-sauce-instructions {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    display: none;
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .allergy-friendly-spring-rolls1,
+  .recipe-tips {
+    font-size: var(--font-size-32xl);
+  }
+  .recipe-tips-parent {
+    gap: var(--gap-5xl);
+  }
+  .thai-sunflower-butter {
+    gap: var(--gap-14xl);
+  }
+  .butter-sauce-instructions {
+    gap: var(--gap-base);
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+  .allergy-friendly-parent {
+    gap: var(--gap-12xl);
+  }
+  .feature-care-meal-child {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .vietnamese-rolls-are-container {
+    font-size: var(--font-size-base);
+  }
+  .allergy-friendly-spring-rolls1,
+  .recipe-tips {
+    font-size: var(--font-size-19xl);
+  }
+  .thai-sunflower-butter {
+    gap: var(--gap-mid);
+  }
+  .allergy-friendly-parent {
+    gap: var(--gap-mini);
+  }
+}

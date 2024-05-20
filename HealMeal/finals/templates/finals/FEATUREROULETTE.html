@@ -1,0 +1,253 @@
+{%load static%}
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{%static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{%static 'css/index.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("{%static './public/FontsFree-Net-Satoshi-Variable.ttf'%}");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="feature-roulette">
+      <header class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="user-male">
+          <b class="home" id="hOMEText">HOME</b>
+        </div>
+        <div class="user-male1">
+          <b class="recipes">RECIPES</b>
+        </div>
+        <div class="main-search-bar">
+          <div class="h-o-m-e-r-e-c-i-p-e-s">
+            <div class="h-o-m-e-r-e-c-i-p-e-s-child"></div>
+            <img
+              class="search-icon"
+              loading="lazy"
+              alt=""
+              src="{%static './public/search@2x.png'%}"
+            />
+          </div>
+        </div>
+        <img
+          class="male-user-icon"
+          loading="lazy"
+          alt=""
+          src="{%static './public/male-user@2x.png'%}"
+        />
+      </header>
+      <div class="pexels-dana-tentis-262959-1"></div>
+      <main class="image-1-parent">
+        <img class="image-1-icon" alt="" src="{%static './public/image-11@2x.png'%}" />
+
+        <div class="vector-parent">
+          <img class="frame-item" alt="" src="{%static './public/vector-24.svg'%}" />
+
+          <div class="image-6-parent">
+            <img class="image-6-icon" alt="" src="{%static './public/image-6@2x.png'%}" />
+
+            <button class="vector-group">
+              <img
+                class="frame-inner"
+                alt=""
+                src="{%static './public/rectangle-9.svg'%}"
+                id="rectangle"
+              />
+
+              <div class="meat-wrapper">
+                <b class="meat" id="meatText">MEAT</b>
+              </div>
+              <img class="vector-icon" alt="" src="{%static './public/vector-10.svg'%}" />
+            </button>
+          </div>
+        </div>
+        <div class="image-7-parent">
+          <img class="image-7-icon" alt="" src="{%static './public/image-7@2x.png'%}" />
+
+          <button class="vector-container">
+            <img
+              class="rectangle-icon"
+              alt=""
+              src="{%static './public/rectangle-9.svg'%}"
+              id="rectangle"
+            />
+
+            <b class="vegetables" id="vegeText">VEGETABLES</b>
+            <div class="vector-wrapper">
+              <img class="frame-child1" alt="" src="{%static './public/vector-10.svg'%}" />
+            </div>
+          </button>
+        </div>
+        <div class="frame-div">
+          <img class="frame-child2" alt="" src="{%static './public/vector-23.svg'%}" />
+
+          <img class="frame-child3" loading="lazy" alt="" />
+
+          <img class="frame-child4" loading="lazy" alt="" />
+
+          <img class="image-8-icon" alt="" src="{%static './public/image-8@2x.png'%}" />
+
+          <button class="frame-button">
+            <img
+              class="frame-child5"
+              alt=""
+              src="{%static './public/rectangle-9.svg'%}"
+              id="rectangle"
+            />
+
+            <img class="frame-child6" alt="" src="./public/vector-10.svg" />
+
+            <b class="seafood" id="seaText">SEAFOOD</b>
+          </button>
+          <img class="image-9-icon" alt="" src="./public/image-9@2x.png" />
+
+          <button class="vector-parent1">
+            <img
+              class="frame-child7"
+              alt=""
+              src="{%static './public/rectangle-9.svg'%}"
+              id="rectangle"
+            />
+
+            <div class="mix-n-match-parent">
+              <b class="mix-n-match" id="comboText">MIX N MATCH</b>
+              <img
+                class="seafood-selection-icon"
+                alt=""
+                src="{%static './public/vector-10.svg'%}"
+              />
+            </div>
+          </button>
+        </div>
+      </main>
+      <h1 class="healthy-meal-roulette-container">
+        <span class="healthy-meal-roulette-container1">
+          <span>HEALTHY</span>
+          <span class="span"> </span>
+          <span>MEAL ROULETTE</span>
+        </span>
+      </h1>
+    </div>
+
+    <script>
+      var aBOUTText = document.getElementById("aBOUTText");
+      if (aBOUTText) {
+        aBOUTText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='groupContainer']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='optInSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./Frame.html";
+        });
+      }
+
+      var meatText = document.getElementById("meatText");
+      if (meatText) {
+        meatText.addEventListener("click", function (e) {
+          window.location.href = "./Component.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./Frame1.html";
+        });
+      }
+
+      var vegeText = document.getElementById("vegeText");
+      if (vegeText) {
+        vegeText.addEventListener("click", function (e) {
+          window.location.href = "./Component1.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./Frame2.html";
+        });
+      }
+
+      var seaText = document.getElementById("seaText");
+      if (seaText) {
+        seaText.addEventListener("click", function (e) {
+          window.location.href = "./Component2.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./Frame3.html";
+        });
+      }
+
+      var comboText = document.getElementById("comboText");
+      if (comboText) {
+        comboText.addEventListener("click", function (e) {
+          window.location.href = "./Component3.html";
+        });
+      }
+    </script>
+  </body>
+</html>

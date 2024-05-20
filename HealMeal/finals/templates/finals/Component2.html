@@ -1,0 +1,132 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{%static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{%static 'css/Component2.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("{%static './public/FontsFree-Net-Satoshi-Variable.ttf'%}");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div15">
+      <main class="frame-parent70">
+        <header class="image-1-parent3">
+          <img class="image-1-icon15" alt="" src="{%static './public/image-11@2x.png'%}" />
+
+          <div class="rectangle-parent133">
+            <div class="frame-child220"></div>
+            <div class="home-wrapper7">
+              <b class="home13" id="hOMEText">HOME</b>
+            </div>
+            <div class="recipes-wrapper6">
+              <b class="recipes11">RECIPES</b>
+            </div>
+            <div class="rectangle-wrapper1">
+              <div class="frame-child221"></div>
+            </div>
+            <img
+              class="male-user-icon12"
+              loading="lazy"
+              alt=""
+              src="{%static './public/male-user@2x.png'%}"
+            />
+          </div>
+        </header>
+        <section class="frame-parent71">
+          <div class="frame-parent72">
+            <div class="c-t-a-button-wrapper">
+              <div class="c-t-a-button">
+                <div class="union-group">
+                  <img
+                    class="union-icon2"
+                    loading="lazy"
+                    alt=""
+                    src="{%static './public/union.svg'%}"
+                  />
+
+                  <h1 class="seafood1">Seafood</h1>
+                </div>
+                <div class="cta-2-wrapper1">
+                  <button class="cta-26">
+                    <div class="back2" id="backText">Back</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <img
+              class="image-28-icon2"
+              loading="lazy"
+              alt=""
+              src="{%static './public/image-28@2x.png'%}"
+            />
+          </div>
+          <div class="cta-2-wrapper2">
+            <button class="cta-27">
+              <div class="spin2">Spin</div>
+            </button>
+          </div>
+        </section>
+      </main>
+      <div class="child">
+        <div class="healmeal-spin-group">
+          <b class="healmeal-spin1">Tour Spinner</b>
+          <div class="cta-2-wrapper3">
+            <div class="cta-28">
+              <b class="get-started2">Get started</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREROULETTE.html";
+        });
+      }
+      </script>
+  </body>
+</html>

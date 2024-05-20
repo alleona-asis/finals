@@ -1,0 +1,129 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{%static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{%static 'css/Component.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("{%static './public/FontsFree-Net-Satoshi-Variable.ttf'%}");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div13">
+      <div class="pexels-dana-tentis-262959-11"></div>
+      <main class="frame-main">
+        <header class="rectangle-parent131">
+          <div class="frame-child217"></div>
+          <div class="home-wrapper5">
+            <b class="home11" id="hOMEText">HOME</b>
+          </div>
+          <div class="recipes-wrapper4">
+            <b class="recipes9">RECIPES</b>
+          </div>
+          <div class="male-user-shape-wrapper">
+            <div class="male-user-shape"></div>
+          </div>
+          <img
+            class="male-user-icon10"
+            loading="lazy"
+            alt=""
+            src="{%static './public/male-user@2x.png'%}"
+          />
+        </header>
+        <section class="c-t-a-focus-parent">
+          <div class="c-t-a-focus">
+            <div class="meat-label-parent">
+              <div class="meat-label">
+                <img
+                  class="union-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{%static './public/union.svg'%}"
+                />
+
+                <h1 class="meat1">Meat</h1>
+              </div>
+              <div class="cta-2-wrapper">
+                <button class="cta-2">
+                  <div class="back" id="backText">Back</div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="second-image-placeholder">
+            <button class="cta-21">
+              <div class="spin">Spin</div>
+            </button>
+            <img
+              class="image-28-icon"
+              loading="lazy"
+              alt=""
+              src="{%static './public/image-28@2x.png'%}"
+            />
+          </div>
+        </section>
+      </main>
+      <img class="image-1-icon13" alt="" src="{%static './public/image-11@2x.png'%}" />
+
+      <div class="inner">
+        <div class="tour-spinner-parent">
+          <b class="tour-spinner">Tour Spinner</b>
+          <div class="c-t-a-new">
+            <div class="cta-22">
+              <b class="get-started">Get started</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREROULETTE.html";
+        });
+      }
+      </script>
+  </body>
+</html>

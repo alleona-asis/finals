@@ -1,0 +1,221 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{%static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{%static 'css/HOME.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("{% static './public/FontsFree-Net-Satoshi-Variable.ttf' %}");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home1">
+      <header class="rectangle-group">
+        <div class="rectangle-div"></div>
+        <div class="home-wrapper">
+          <b class="home2">HOME</b>
+        </div>
+        <div class="recipes-wrapper">
+          <b class="recipes1">RECIPES</b>
+        </div>
+        <div class="rectangle-wrapper">
+          <div class="frame-child8"></div>
+        </div>
+        <img
+          class="male-user-icon1"
+          loading="lazy"
+          alt=""
+          src="{%static './public/male-user@2x.png'%}"
+        />
+      </header>
+      <button class="rectangle-container">
+        <div class="frame-child9" id="rectangle"></div>
+        <b class="care-meal" id="CareMealText">CARE MEAL</b>
+      </button>
+      <main class="frame-parent">
+        <button class="roulette-fitness-parent">
+          <div class="roulette-fitness" id="rouletteFitness"></div>
+          <b class="roulette" id="RouletteText">ROULETTE</b>
+        </button>
+        <button class="rectangle-parent1">
+          <div class="frame-child10" id="rectangle"></div>
+          <b class="fitness" id="fITNESSText">FITNESS</b>
+        </button>
+        <h1 class="living">LIVING</h1>
+        <b class="healthy">HEALTHY</b>
+        <section class="frame-group">
+          <div class="frame-container">
+            <img class="group-icon" alt="" src="{% static './public/girl@2x.png'%}" />
+
+            <h1 class="healthy1">HEALTHY</h1>
+          </div>
+          <img class="image-1-icon1" alt="" src="{% static './public/image-11@2x.png'%}" />
+
+          <div class="contact-information">
+            <img
+              class="contact-information-child"
+              alt=""
+              src="{% static './public/shading2@2x.png'%}"
+            />
+
+            <button class="contact-us-button">
+              <div class="contact-us-button-child" id="rectangle"></div>
+              <b class="bmi" id="BMIText">BMI</b>
+              
+            </button>
+          </div>
+          <div class="action-button">
+            <div class="action-button-child"></div>
+            <img
+              class="adam-bartoszewicz-lnffytrbkrm-icon"
+              loading="lazy"
+              alt=""
+              src="{% static './public/adambartoszewiczlnffytrbkrmunsplash-1@2x.png'%}"
+            />
+
+            <div class="social-media-icons">
+              <div class="social-media-icons-child"></div>
+              <h1 class="know-more">Know more</h1>
+            </div>
+          </div>
+          <div class="call-to-action-button-content">
+            <img
+              class="call-to-action-button-content-child"
+              alt=""
+              src="{% static  './public/vector-23-1@2x.png'%}"
+            />
+
+            <div class="pexels-bulbfish-1143754-1-parent">
+              <img
+                class="pexels-bulbfish-1143754-1-icon"
+                alt=""
+                src="{% static './public/food2@2x.png'%}"
+              />
+
+              <div class="ellipse-parent">
+                <div class="ellipse-div"></div>
+                <div class="more">More</div>
+              </div>
+            </div>
+            <div class="footer">
+              <img
+                class="pexels-vui-nguyen-18563127-1-icon"
+                alt=""
+                src="{%static './public/food4@2x.png'%}"
+              />
+
+              <div class="more-content-parent">
+                <div class="more-content"></div>
+                <div class="more1">More</div>
+              </div>
+            </div>
+            <div class="pexels-lucas-andrade-19781592-parent">
+              <img
+                class="pexels-lucas-andrade-19781592-icon"
+                alt=""
+                src="{% static './public/food41@2x.png'%}"
+              />
+
+              <div class="ellipse-group">
+                <div class="frame-child11"></div>
+                <div class="more2">More</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h1 class="eating">EATING</h1>
+      </main>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./FEATURECAREMEAL.html";
+        });
+      }
+
+      var CareMealText = document.getElementById("CareMealText");
+      if (CareMealText) {
+        CareMealText.addEventListener("click", function (e) {
+          window.location.href = "./FEATURECAREMEAL.html";
+        });
+      }
+
+      var rouletteFitness = document.getElementById("rouletteFitness");
+      if (rouletteFitness) {
+        rouletteFitness.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREROULETTE.html";
+        });
+      }
+
+      var RouletteText = document.getElementById("RouletteText");
+      if (RouletteText) {
+        RouletteText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREROULETTE.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREFITNESS.html";
+        });
+      }
+
+      var fITNESSText = document.getElementById("fITNESSText");
+      if (fITNESSText) {
+        fITNESSText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREFITNESS.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREBMI.html";
+        });
+      }
+
+      var BMIText = document.getElementById("BMIText");
+      if (BMIText) {
+        BMIText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREBMI.html";
+        });
+      }
+    </script>
+  </body>
+</html>

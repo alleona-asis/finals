@@ -1,0 +1,224 @@
+.introduction {
+  flex: 1;
+  position: relative;
+}
+.component-1-icon {
+  height: 105px;
+  width: 236px;
+  position: absolute;
+  margin: 0 !important;
+  right: -219px;
+  bottom: -86px;
+  z-index: 1;
+}
+.introduction-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.to-healmeal {
+  width: 225px;
+  position: relative;
+  font-weight: 300;
+  color: var(--color-chocolate-100);
+  display: inline-block;
+}
+.frame-parent51,
+.frame-wrapper20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent51 {
+  align-self: stretch;
+  gap: 11px;
+}
+.frame-wrapper20 {
+  width: 309px;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 309px;
+}
+.healmeal-is-a {
+  width: 640px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.about-inner,
+.frame-parent50 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent50 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.about-inner {
+  width: 1377px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl) 65.4px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-montserrat);
+}
+.about4 {
+  position: relative;
+}
+.subheader,
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.title-container {
+  flex: 1;
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.subheader {
+  width: 326.7px;
+  padding: 0 32.2px 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.healmeal {
+  width: 173.2px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame1,
+.subheader1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+.frame1 {
+  width: 294.5px;
+}
+.subheader1 {
+  align-self: stretch;
+  debug_commit: 1de1738;
+  color: var(--color-saddlebrown);
+}
+.header {
+  width: 837.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5.2px;
+  max-width: 100%;
+}
+.healmeal-is-a1 {
+  height: 188.6px;
+  width: 654.3px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frame-icon3 {
+  height: 583.5px;
+  width: 543.3px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -201.1px;
+  left: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.about3,
+.feature {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-montserrat);
+}
+.feature {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.about3 {
+  width: 100%;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 126px var(--padding-4xl) 351.6px;
+  gap: var(--gap-25xl);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gold-100);
+}
+@media screen and (max-width: 1200px) {
+  .about-inner {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .introduction,
+  .to-healmeal {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-wrapper20 {
+    flex: 1;
+  }
+  .frame-parent50 {
+    flex-wrap: wrap;
+  }
+  .about4,
+  .healmeal {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .about3 {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .introduction,
+  .to-healmeal {
+    font-size: var(--font-size-3xl);
+  }
+  .healmeal-is-a {
+    font-size: var(--font-size-base);
+  }
+  .about4,
+  .healmeal {
+    font-size: var(--font-size-3xl);
+  }
+}

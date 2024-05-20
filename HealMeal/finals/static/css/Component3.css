@@ -1,0 +1,383 @@
+.image-1-icon16 {
+  height: 101px;
+  width: 94px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 50.5px);
+  left: 56px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-child222 {
+  height: 95px;
+  width: 1440px;
+  position: relative;
+  background: linear-gradient(90deg, #def088, #a6d555 45.5%, #598a03);
+  display: none;
+  max-width: 100%;
+}
+.home14 {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  cursor: pointer;
+  z-index: 1;
+}
+.home-recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+}
+.recipes12 {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 1;
+}
+.home-recipes1 {
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frame-child223 {
+  align-self: stretch;
+  height: 46px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-floralwhite);
+  z-index: 1;
+}
+.rectangle-wrapper2 {
+  width: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.male-user-icon13 {
+  height: 77px;
+  width: 72px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.image-1-parent4,
+.rectangle-parent134 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent134 {
+  flex: 1;
+  background: linear-gradient(90deg, #def088, #a6d555 45.5%, #598a03);
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl) var(--padding-9xs)
+    var(--padding-185xl);
+  box-sizing: border-box;
+  gap: var(--gap-87xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.image-1-parent4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-montserrat);
+}
+.union-icon3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -32px;
+  max-height: 100%;
+  width: 340px;
+}
+.combo {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 48px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.union-container {
+  align-self: stretch;
+  height: 110px;
+  position: relative;
+}
+.back3 {
+  position: relative;
+  font-size: var(--font-size-2xl-3);
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 54px;
+  cursor: pointer;
+}
+.cta-2-wrapper4,
+.cta-29 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cta-29 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-11xl);
+  background-color: var(--color-chocolate-100);
+  border-radius: var(--br-xl);
+  justify-content: flex-start;
+}
+.cta-210:hover,
+.cta-29:hover {
+  background-color: var(--color-chocolate-200);
+}
+.cta-2-wrapper4 {
+  justify-content: flex-end;
+  padding: 0 var(--padding-30xl);
+}
+.home-recipe,
+.home-recipe-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-recipe {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-582xl);
+}
+.home-recipe-wrapper {
+  width: 308px;
+  align-items: flex-start;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  min-width: 308px;
+}
+.image-28-icon3 {
+  height: 789px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 528px;
+}
+.c-t-a-f-r-a-m-e {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-paytone-one);
+}
+.spin3 {
+  position: relative;
+  font-size: var(--font-size-2xl-3);
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.c-t-a-f-r-a-m-e-parent,
+.cta-210 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cta-210 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-11xl);
+  background-color: var(--color-chocolate-100);
+  border-radius: var(--br-xl);
+  align-items: flex-start;
+}
+.c-t-a-f-r-a-m-e-parent {
+  width: 1316px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 72px 0;
+  box-sizing: border-box;
+  gap: var(--gap-43xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+}
+.get-started3,
+.healmeal-spin2 {
+  align-self: stretch;
+  position: relative;
+}
+.healmeal-spin2 {
+  height: 107px;
+  display: inline-block;
+  opacity: 0;
+}
+.get-started3 {
+  flex: 1;
+}
+.cta-211,
+.final-c-t-a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cta-211 {
+  height: 25.7px;
+  width: 63px;
+  border-radius: 7.34px;
+  background-color: var(--color-royalblue);
+  justify-content: flex-start;
+  padding: var(--padding-5xs-3) var(--padding-2xs) var(--padding-5xs-4);
+  box-sizing: border-box;
+  opacity: 0;
+  white-space: nowrap;
+}
+.final-c-t-a {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  font-size: var(--font-size-5xs-8);
+}
+.healmeal-spin-container {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl-7);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+}
+.div16,
+.inner1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.div16 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 85px;
+  gap: var(--gap-4xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-60xl-3);
+  color: var(--color-white);
+  font-family: var(--font-satoshi-variable);
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent134 {
+    padding-left: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .combo {
+    font-size: var(--font-size-21xl);
+  }
+  .home-recipe-wrapper {
+    flex: 1;
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .c-t-a-f-r-a-m-e {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .c-t-a-f-r-a-m-e-parent {
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .healmeal-spin2 {
+    font-size: var(--font-size-44xl);
+  }
+  .div16 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent134 {
+    display: none;
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .image-28-icon3 {
+    min-width: 100%;
+  }
+  .c-t-a-f-r-a-m-e-parent {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent134 {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .combo {
+    font-size: var(--font-size-11xl);
+  }
+  .back3 {
+    font-size: var(--font-size-mid);
+  }
+  .home-recipe {
+    gap: var(--gap-281xl);
+  }
+  .home-recipe-wrapper {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .spin3 {
+    font-size: var(--font-size-mid);
+  }
+  .c-t-a-f-r-a-m-e-parent {
+    gap: var(--gap-mini);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .healmeal-spin2 {
+    font-size: var(--font-size-29xl);
+  }
+}

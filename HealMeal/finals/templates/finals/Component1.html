@@ -1,0 +1,128 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{%static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{%static 'css/Component1.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Advent Pro:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Satoshi Variable";
+        src: url("{%static './public/FontsFree-Net-Satoshi-Variable.ttf'%}");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div14">
+      <header class="image-1-parent2">
+        <img class="image-1-icon14" alt="" src="{%static './public/image-11@2x.png'%}" />
+
+        <div class="rectangle-parent132">
+          <div class="frame-child218"></div>
+          <div class="home-wrapper6">
+            <b class="home12" id="hOMEText">HOME</b>
+          </div>
+          <div class="recipes-wrapper5">
+            <b class="recipes10">RECIPES</b>
+          </div>
+          <div class="rectangle-frame">
+            <div class="frame-child219"></div>
+          </div>
+          <img
+            class="male-user-icon11"
+            loading="lazy"
+            alt=""
+            src="{%static './public/male-user@2x.png'%}"
+          />
+        </div>
+      </header>
+      <main class="frame-parent68">
+        <div class="frame-wrapper32">
+          <div class="frame-parent69">
+            <div class="union-parent">
+              <img
+                class="union-icon1"
+                loading="lazy"
+                alt=""
+                src="{%static './public/union.svg'%}"
+              />
+
+              <h1 class="vegetables1">Vegetables</h1>
+            </div>
+            <div class="cta-2-container">
+              <button class="cta-23">
+                <div class="back1" id="backText">Back</div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <section class="secondary-c-t-a">
+          <button class="cta-24">
+            <div class="spin1">Spin</div>
+          </button>
+          <img
+            class="image-28-icon1"
+            loading="lazy"
+            alt=""
+            src="{%static './public/image-28@2x.png'%}"
+          />
+        </section>
+      </main>
+      <div class="secondary-c-t-a-label">
+        <div class="healmeal-spin-parent">
+          <div class="healmeal-spin">Tour Spinner</div>
+          <div class="cta-2-frame">
+            <div class="cta-25">
+              <b class="get-started1">Get started</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./FEATUREROULETTE.html";
+        });
+      }
+      </script>
+  </body>
+</html>
