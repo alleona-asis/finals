@@ -27,13 +27,16 @@ urlpatterns = [
     path('index/', finals_views.index, name='index'),
     path('index.html/', finals_views.index, name='index'),
 
-    path('', finals_views.home, name='home'),
+    path('home/', finals_views.index, name='index'),
+    path('HOME.html/', finals_views.index, name='index'),
+
+    path('', finals_views.index, name='index'),
 
     path('about/', finals_views.about, name='about'),
     path('about.html/', finals_views.about, name='about'),
 
     path('component/', finals_views.component, name='component'),  
-    path('Component/', finals_views.component, name='component'),  
+    path('Component.html/', finals_views.component, name='component'),  
 
     path('component1/', finals_views.component1, name='component1'),
     path('Component1.html/', finals_views.component1, name='component1'),  
